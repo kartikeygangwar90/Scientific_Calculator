@@ -3,9 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Scientific_Calculator</title>
+    <link rel="stylesheet" href="./style/styling.css">
 </head>
 <body>
-    
+    <main>
+        <div class="container">
+            <section>  <!-- For the Screen showing the choosen digits and the Calculated result also.. -->
+                <div class="screen">
+                    <input type="text" name="search box" id="display">
+                </div>
+            </section>
+            <section>   <!--// For the dialpad and operators also -->
+                <div class="dialpad">
+                    <div class="row1">
+                        <button class="operators">(</button>
+                        <button class="operators">)</button>
+                        <button class="operators">%</button>
+                        <button id="delete">AC</button>
+                    </div>
+                    <div class="div2">
+                        <button class="digits">7</button>
+                        <button class="digits">8</button>
+                        <button class="digits">9</button>
+                        <button class="operators">&divide</button>
+                    </div>
+                    <div class="row3">
+                        <button class="digits">4</button>
+                        <button class="digits">5</button>
+                        <button class="digits">6</button>
+                        <button class="operators">&times</button>
+                    </div>
+                    <div class="row4">
+                        <button class="digits">1</button>
+                        <button class="digits">2</button>
+                        <button class="digits">3</button>
+                        <button class="operators">&#8722</button>
+                    </div>
+                    <div class="row4">
+                        <button>.</button>
+                        <button class="digits">0</button>
+                        <button class="operators">=</button>
+                        <button class="operators">&#x2B</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="./soul/main.js"></script>
 </body>
 </html>

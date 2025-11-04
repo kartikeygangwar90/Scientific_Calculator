@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    /* align-self: center; */
+    margin: 60px auto;
+    height: 620px;
+    width: 400px;
+    border: 3px solid black;
+    border-radius: 4px;
+}
+
+.container section .screen{
+    height: 100px;
+    width: auto;
+    margin: 10px;
+    border: 3px solid gray;
+    border-radius: 4px;
+}
+
+.container section .screen #display{
+    width: 372px;
+    height: 98px;
+    cursor: pointer;
+    font-size: 50px;
+    text-align: right;
+}
+
+.container section .dialpad{
+    height: 435px;
+    width: auto;
+    margin-top: 50px;
+    margin-left: 12px;
+    margin-right: 12px;
+    border: 3px solid cornflowerblue;
+    border-radius: 4px;
+}
+
+.dialpad button{
+    margin: 5px;
+    margin-top: 20px;
+    padding: 15px;
+    height: 50px;
+    width: 78px;
+    text-align: center;
+    line-height: 0px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-shadow: 3px 3px 3px gray;
+    border: none;
+}
+.dialpad button:hover{
+      transform: scale(1.02);
+}
+
+.dialpad button .digits{
+    background-color: #d2c4c4 ;
+}
+.dialpad .digits:hover{
+    background-color: rgba(87, 98, 98, 0.628);
+}
+
+.dialpad .operators{
+    background-color: #73b2dc62 ;
+}
+.dialpad .operators:hover{
+    background-color: #389fe4ba;
+}
+
+.dialpad .row1 #delete{
+    background-color: #cc833ea0;
+}
+.dialpad .row1 #delete:hover{
+    background-color: #b96619b8;
+}
