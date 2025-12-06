@@ -52,7 +52,7 @@
     border: none;
 }
 .dialpad button:hover{
-      transform: scale(1.02);
+    transform: scale(1.02);
 }
 
 .dialpad button .digits{
@@ -74,4 +74,10 @@
 }
 .dialpad .row1 #delete:hover{
     background-color: #b96619b8;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
