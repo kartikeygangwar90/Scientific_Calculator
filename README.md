@@ -13,3 +13,7 @@ I am thinking of implementing Seven Segments display as a Screen .. Hope I can l
 # day 2
 Hey I am still searching for some information about the seven Segment display.
 Although I have completed some frontend part of the project.
+
+# day 3
+I have applied the working of all the digits, operators....
+The logic would be applied later

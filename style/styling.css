@@ -69,6 +69,14 @@
     background-color: #389fe4ba;
 }
 
+.dialpad .dotOperator{
+    background-color: #73b2dc62 ;
+}
+.dialpad .dotOperator:hover{
+    background-color: #389fe4ba;
+}
+
+
 .dialpad .row1 #delete{
     background-color: #cc833ea0;
 }
@@ -76,8 +84,18 @@
     background-color: #b96619b8;
 }
 
+.dialpad .row4 .compute{
+    background-color: #adf48ab8;
+}
+.dialpad .row4 .compute:hover{
+    background-color: #54bf1eb8;
+}
+
+
+/* ----- This is the CSS to avoid the up and down cursor in type number ----- */
+/* 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
-}
+} */
